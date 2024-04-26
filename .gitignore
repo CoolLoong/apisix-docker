@@ -1,4 +1,6 @@
-.idea
-.DS_Store
-./package
-!compose/apisix_log/.gitkeep
+/apisix_log/*
+!/apisix_log/.keep
+
+/etcd_data/*
+!/etcd_data/.keep
+/.idea/
